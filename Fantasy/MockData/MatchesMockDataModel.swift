@@ -68,4 +68,10 @@ enum PlayerRole {
     case Bowler
 }
 
+enum PlayerType {
+    case captain
+    case vice_captain
+    case normal
+}
+
 // cricket team contains four batsmen, three all-rounders, one wicket-keeper and three bowlers.

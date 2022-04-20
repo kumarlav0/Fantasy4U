@@ -13,21 +13,38 @@ class MockData {
     private init() { }
 
     func getTournament() -> Tournament {
-Tournament(startDate: getDate(strDate: "25/03/2022, 4:30 PM"), EndDate: getDate(strDate: "28/04/2022, 4:30 PM"), matches: <#T##[Matche]#>, headOfTournament: <#T##String#>, poweredBy: <#T##String#>)
+        Tournament(startDate: getDate(strDate: "1/04/2022, 4:30 PM"), EndDate: getDate(strDate: "30/04/2022, 4:30 PM"), matches: getMatches(numberOfMatches: 25), headOfTournament: "SSN Vinay Murti", poweredBy: "Vimal Pan Masala")
     }
 
 
     func getMatches(numberOfMatches: Int) -> [Matche] {
         var matches = [Matche]()
         for i in 0..<numberOfMatches {
-            matches.append(Matche(teamA: <#T##Team#>, teamB: <#T##Team#>, date: <#T##Date#>, winnerTeam: <#T##Team?#>, stadium: <#T##Stadium#>))
+            matches.append(Matche(teamA: getTeam(), teamB: getTeam(), date: getDate(strDate: "\(1+i)/04/2022, 4:30 PM"), winnerTeam: getTeam(), stadium: getStadium()))
         }
+        return matches
     }
 
 
+    func getTeam() -> Team {
+        Team(name: "India", logo: #imageLiteral(resourceName: "Bruno-Fernandes"), score: 0, captain: getPlayer(by: .Wicket_Keeper, playerType: .captain), players: getPlayers())
+    }
 
+    func getStadium() -> Stadium {
+        Stadium(name: "Holkar", image: #imageLiteral(resourceName: "Bruno-Fernandes"), location: Location(country: "", state: "", city: "Indore", zipCode: 452010))
+    }
 
+    func getPlayers(number: Int = 11) -> [Player] {
+        var players =  [Player]()
+        for _ in 0..<number {
+            players.append(getPlayer())
+        }
+        return players
+    }
 
+    func getPlayer(by playerRole: PlayerRole = .All_Rounder, playerType: PlayerType = .normal) -> Player {
+        Player(name: "MS Dhoni", image: #imageLiteral(resourceName: "Bruno-Fernandes"), isCaptain: playerType == .captain, role: playerRole)
+    }
 
 }
 
