@@ -10,20 +10,17 @@ import UIKit
 class MatchesCell: UITableViewCell {
     @IBOutlet weak var leftImageView: UIImageView!
     @IBOutlet weak var rightImageView: UIImageView!
-
     @IBOutlet weak var vsLbl: UILabel!
+    @IBOutlet weak var tournamentNameLbl: UILabel!
+    @IBOutlet weak var bgView: UIView!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        leftImageView.layer.cornerRadius = leftImageView.frame.height / 2
-        leftImageView.clipsToBounds = true
-
-        rightImageView.layer.cornerRadius = rightImageView.frame.height / 2
-        rightImageView.clipsToBounds = true
-
-        vsLbl.layer.cornerRadius = vsLbl.frame.height / 2
-        vsLbl.clipsToBounds = true
-
+        leftImageView.round()
+        rightImageView.round()
+        bgView.setShadow()
+        vsLbl.round()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

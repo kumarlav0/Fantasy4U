@@ -3,14 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0407B9E7274C2155005CA74E /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407B9E6274C2155005CA74E /* TableViewExtension.swift */; };
+		0412AACF28302861006FDF6B /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412AACE28302861006FDF6B /* RegistrationVC.swift */; };
+		0412AAD128302886006FDF6B /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412AAD028302886006FDF6B /* ForgotPasswordVC.swift */; };
+		0412AAD32830289B006FDF6B /* SuccessMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412AAD22830289B006FDF6B /* SuccessMessageVC.swift */; };
+		0412AAD5283033E6006FDF6B /* GeneralExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412AAD4283033E6006FDF6B /* GeneralExtension.swift */; };
 		04A3315D281084C1009270E1 /* MatchesMockDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3315C281084C1009270E1 /* MatchesMockDataModel.swift */; };
 		04A3315F28108DCA009270E1 /* GenerateMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3315E28108DCA009270E1 /* GenerateMockData.swift */; };
 		04A7D5CC282838A20065F8F2 /* Onboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7D5CB282838A20065F8F2 /* Onboard.storyboard */; };
+		04A7D5CE282847E20065F8F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7D5CD282847E20065F8F2 /* LoginViewController.swift */; };
 		04AB5683274368E500EEDF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5682274368E500EEDF97 /* AppDelegate.swift */; };
 		04AB5685274368E500EEDF97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5684274368E500EEDF97 /* SceneDelegate.swift */; };
 		04AB568A274368E500EEDF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB5688274368E500EEDF97 /* Main.storyboard */; };
@@ -51,10 +56,15 @@
 
 /* Begin PBXFileReference section */
 		0407B9E6274C2155005CA74E /* TableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		0412AACE28302861006FDF6B /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		0412AAD028302886006FDF6B /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		0412AAD22830289B006FDF6B /* SuccessMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessMessageVC.swift; sourceTree = "<group>"; };
+		0412AAD4283033E6006FDF6B /* GeneralExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralExtension.swift; sourceTree = "<group>"; };
 		043EEA7C27C6E59E72C0EA3B /* Pods_Fantasy_FantasyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fantasy_FantasyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3315C281084C1009270E1 /* MatchesMockDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesMockDataModel.swift; sourceTree = "<group>"; };
 		04A3315E28108DCA009270E1 /* GenerateMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMockData.swift; sourceTree = "<group>"; };
 		04A7D5CB282838A20065F8F2 /* Onboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboard.storyboard; sourceTree = "<group>"; };
+		04A7D5CD282847E20065F8F2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		04AB567F274368E500EEDF97 /* Fantasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fantasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AB5682274368E500EEDF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AB5684274368E500EEDF97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				0407B9E6274C2155005CA74E /* TableViewExtension.swift */,
+				0412AAD4283033E6006FDF6B /* GeneralExtension.swift */,
 			);
 			path = "Supporting File";
 			sourceTree = "<group>";
@@ -136,6 +147,10 @@
 			children = (
 				04AB56B72743700300EEDF97 /* MatchesVC.swift */,
 				04AB56BE2743948B00EEDF97 /* MatchDetailsVC.swift */,
+				04A7D5CD282847E20065F8F2 /* LoginViewController.swift */,
+				0412AACE28302861006FDF6B /* RegistrationVC.swift */,
+				0412AAD028302886006FDF6B /* ForgotPasswordVC.swift */,
+				0412AAD22830289B006FDF6B /* SuccessMessageVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -265,7 +280,6 @@
 				E929F60E8532C6F759227DA5 /* Pods-FantasyTests.debug.xcconfig */,
 				1EE400627185BB1C9FB63D5F /* Pods-FantasyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -511,17 +525,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A7D5CE282847E20065F8F2 /* LoginViewController.swift in Sources */,
 				0407B9E7274C2155005CA74E /* TableViewExtension.swift in Sources */,
+				0412AAD32830289B006FDF6B /* SuccessMessageVC.swift in Sources */,
 				04AB56CA27441FF700EEDF97 /* ScoreHeaderView.swift in Sources */,
 				04A3315F28108DCA009270E1 /* GenerateMockData.swift in Sources */,
 				04AB56B82743700300EEDF97 /* MatchesVC.swift in Sources */,
 				04AB56BF2743948B00EEDF97 /* MatchDetailsVC.swift in Sources */,
 				04AB5683274368E500EEDF97 /* AppDelegate.swift in Sources */,
 				04AB56BC2743704C00EEDF97 /* MatchesCell.swift in Sources */,
+				0412AAD128302886006FDF6B /* ForgotPasswordVC.swift in Sources */,
 				04AB56C427441B0800EEDF97 /* MatchScoreCell.swift in Sources */,
 				04A3315D281084C1009270E1 /* MatchesMockDataModel.swift in Sources */,
+				0412AAD5283033E6006FDF6B /* GeneralExtension.swift in Sources */,
 				04AB568D274368E500EEDF97 /* Fantasy.xcdatamodeld in Sources */,
 				04AB5685274368E500EEDF97 /* SceneDelegate.swift in Sources */,
+				0412AACF28302861006FDF6B /* RegistrationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

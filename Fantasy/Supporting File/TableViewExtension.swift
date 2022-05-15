@@ -60,14 +60,14 @@ extension String {
 
 
 extension UIView {
-    func round() {
-        self.layer.cornerRadius = self.layer.frame.height / 2
-        self.clipsToBounds = true
+    func round(radius: CGFloat? = nil) {
+        layer.cornerRadius = radius ??  layer.frame.height / 2
+        clipsToBounds = true
     }
 
     func border(borderWidth: CGFloat, borderColor: UIColor = .white) {
-        self.layer.borderWidth = borderWidth
-        self.layer.borderColor = borderColor.cgColor
+        layer.borderWidth = borderWidth
+        layer.borderColor = borderColor.cgColor
     }
 }
 
@@ -78,7 +78,7 @@ extension UIView {
         rotation.toValue = 2 * Double.pi
         rotation.duration = 1.1
         rotation.repeatCount = Float.infinity
-        self.layer.add(rotation, forKey: "Spin")
+        layer.add(rotation, forKey: "Spin")
         self.tintColor = tintColor
     }
 }
