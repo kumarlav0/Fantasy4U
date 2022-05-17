@@ -88,9 +88,16 @@ class MockData {
 
 func getDate(strDate: String) -> Date {
     let dateFormatter = DateFormatter()
-    dateFormatter.dateFormat = "dd/MM/yyyy, h:mm a" // 12 Match 2022, 4:30 PM
+    dateFormatter.dateFormat = "dd/MM/yyyy, h:mm a" // 12 March 2022, 4:30 PM
     let date = dateFormatter.date(from: strDate)
     return date ?? Date()
+}
+
+func getString(date: Date) -> String {
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = "d MMM yyyy" // 12 March 2022, 4:30 PM
+    dateFormatter.string(from: date)
+    return dateFormatter.string(from: date)
 }
 
 /**

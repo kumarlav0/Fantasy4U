@@ -14,6 +14,9 @@ class MatchesCell: UITableViewCell {
     @IBOutlet weak var tournamentNameLbl: UILabel!
     @IBOutlet weak var bgView: UIView!
 
+    var timer: Timer?
+    var startDate: Date!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -28,5 +31,35 @@ class MatchesCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+
+    func setData(match: Matche) {
+        leftImageView.image = match.teamA.logo
+        rightImageView.image = match.teamB.logo
+        tournamentNameLbl.text = "Champaran Cricket League"
+        if match.isLive {
+            vsLbl.text = "LIVE"
+            vsLbl.textColor = .green
+        } else {
+            startDate = match.date
+            //vsLbl.text = "\(getString(date: match.date))"
+            startTimerWithTotalRemainingTime()
+            vsLbl.textColor = .white
+        }
+
+    }
     
+}
+
+extension MatchesCell {
+
+    func startTimerWithTotalRemainingTime() {
+        //updateTimer()
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(updateTimer)), userInfo: nil, repeats: true)
+    }
+
+    @objc func updateTimer() {
+        let diffComponents = Calendar.current.dateComponents([.hour, .minute], from: Date(), to: startDate)
+
+        vsLbl.text = "\(diffComponents.hour ?? 0):\(diffComponents.minute ?? 0):\(diffComponents.second ?? 0) Second's"
+    }
 }

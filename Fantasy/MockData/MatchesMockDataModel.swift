@@ -24,18 +24,18 @@ struct Matche {
     var teamB: Team
     var date: Date
     var isLive: Bool {
-        date >= Date() /// Write logic here.
+        date <= Date() /// Write logic here.
     }
     var winnerTeam: Team? /// Will be teamA or maybe teamB when match is over.
-    var stadium: Stadium
+    var stadium: Stadium?
 }
 
 struct Team {
     var name: String
-    var logo: UIImage
+    var logo: UIImage?
     var score: Int
-    var captain: Player
-    var players: [Player]
+    var captain: Player?
+    var players: [Player]?
 }
 
 struct Player {

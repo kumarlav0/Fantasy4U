@@ -16,24 +16,22 @@ class RegistrationVC: UIViewController {
     @IBOutlet weak var confirmPasswordTF: SkyFloatingLabelTextField!
     @IBOutlet var socialLogoImg: [UIImageView]!
 
+    var successPopUp: SuccessPopUp!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
 
     @IBAction func loginAction(_ sender: Any) {
-        dismiss(animated: true) {
-            print("Controller Dismissing... Please Save your data")
-        }
+        dismiss(animated: true)
     }
     
     @IBAction func registrationAction(_ sender: Any) {
-        guard let homeVC = storyboard?.instantiateViewController(withIdentifier: "SuccessMessageVC") as? SuccessMessageVC else { return }
-        homeVC.modalPresentationStyle = .fullScreen
-        present(homeVC, animated: true, completion: nil)
+        Popup.shared.openPopUp(inController: self) {
+            self.dismiss(animated: true, completion: nil)
+        }
     }
     
 }
