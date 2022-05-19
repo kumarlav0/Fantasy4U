@@ -23,11 +23,14 @@ struct Matche {
     var teamA: Team
     var teamB: Team
     var date: Date
+    var winnerTeam: Team? /// Will be teamA or maybe teamB when match is over.
+    var stadium: Stadium?
+}
+
+extension Matche {
     var isLive: Bool {
         date <= Date() /// Write logic here.
     }
-    var winnerTeam: Team? /// Will be teamA or maybe teamB when match is over.
-    var stadium: Stadium?
 }
 
 struct Team {

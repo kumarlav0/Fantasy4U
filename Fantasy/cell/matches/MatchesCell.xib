@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -32,13 +33,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbp-Fg-ZJ1" customClass="PaddingLabel" customModule="Fantasy" customModuleProvider="target">
-                                <rect key="frame" x="132" y="27.5" width="50" height="30"/>
+                                <rect key="frame" x="128.5" y="27.5" width="57.5" height="30"/>
                                 <color key="backgroundColor" red="0.90980392160000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="0Ss-iF-IVn"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Nkb-rV-gSw"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="12"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="15"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -107,12 +108,19 @@
                 <outlet property="bgView" destination="R75-Nx-ZfH" id="g0N-7G-n69"/>
                 <outlet property="leftImageView" destination="RPB-Mw-wsQ" id="9eq-jT-1gx"/>
                 <outlet property="rightImageView" destination="TAr-c1-hk0" id="bC0-0a-wah"/>
+                <outlet property="teamANameLbl" destination="KLk-KW-CHU" id="Oge-ut-Thn"/>
+                <outlet property="teamBNameLbl" destination="07f-ny-8UY" id="7Bl-nl-9ke"/>
                 <outlet property="tournamentNameLbl" destination="9XT-or-JRQ" id="uGe-qP-J2d"/>
                 <outlet property="vsLbl" destination="bbp-Fg-ZJ1" id="euo-jl-hNF"/>
             </connections>
             <point key="canvasLocation" x="36.231884057971016" y="83.370535714285708"/>
         </tableViewCell>
     </objects>
+    <designables>
+        <designable name="bbp-Fg-ZJ1">
+            <size key="intrinsicContentSize" width="57.5" height="27.5"/>
+        </designable>
+    </designables>
     <resources>
         <image name="5492" width="6901" height="6901"/>
         <systemColor name="systemGreenColor">

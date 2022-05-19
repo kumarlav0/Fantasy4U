@@ -13,7 +13,8 @@ class MatchesCell: UITableViewCell {
     @IBOutlet weak var vsLbl: UILabel!
     @IBOutlet weak var tournamentNameLbl: UILabel!
     @IBOutlet weak var bgView: UIView!
-
+    @IBOutlet weak var teamANameLbl: UILabel!
+    @IBOutlet weak var teamBNameLbl: UILabel!
     var timer: Timer?
     var startDate: Date!
 
@@ -36,30 +37,17 @@ class MatchesCell: UITableViewCell {
         leftImageView.image = match.teamA.logo
         rightImageView.image = match.teamB.logo
         tournamentNameLbl.text = "Champaran Cricket League"
+        teamANameLbl.text = match.teamA.name
+        teamBNameLbl.text = match.teamB.name
         if match.isLive {
-            vsLbl.text = "LIVE"
+            vsLbl.text = FYString.Live.rawValue
             vsLbl.textColor = .green
         } else {
-            startDate = match.date
-            //vsLbl.text = "\(getString(date: match.date))"
-            startTimerWithTotalRemainingTime()
             vsLbl.textColor = .white
+            let now = Date()
+            let fireDate = match.date
+            vsLbl.text = TimeFormatter.calculateTime(now, fireDate: fireDate)
         }
-
     }
     
-}
-
-extension MatchesCell {
-
-    func startTimerWithTotalRemainingTime() {
-        //updateTimer()
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(updateTimer)), userInfo: nil, repeats: true)
-    }
-
-    @objc func updateTimer() {
-        let diffComponents = Calendar.current.dateComponents([.hour, .minute], from: Date(), to: startDate)
-
-        vsLbl.text = "\(diffComponents.hour ?? 0):\(diffComponents.minute ?? 0):\(diffComponents.second ?? 0) Second's"
-    }
 }
