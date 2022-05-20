@@ -8,6 +8,7 @@
 import UIKit
 
 struct Tournament {
+    var name: String?
     var startDate: Date
     var EndDate: Date
     var matches: [Matche]
@@ -25,6 +26,7 @@ struct Matche {
     var date: Date
     var winnerTeam: Team? /// Will be teamA or maybe teamB when match is over.
     var stadium: Stadium?
+    var tornamentName = "Purnea T20 Cricket League"
 }
 
 extension Matche {

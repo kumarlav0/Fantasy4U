@@ -13,11 +13,11 @@ class DemoData {
 
     func getTournament() -> Tournament {
 
-        let date1 = getDate(strDate: "18/05/2022, 2:02 AM")
-        let date2 = getDate(strDate: "20/05/2022, 3:55 AM")
-        let date3 = getDate(strDate: "20/05/2022, 4:30 AM")
-        let date4 = getDate(strDate: "20/05/2022, 5:45 AM")
-        let date5 = getDate(strDate: "20/06/2022, 6:30 PM")
+        let date1 = getDate(strDate: "21/05/2022, 1:02 AM")
+        let date2 = getDate(strDate: "21/05/2022, 3:55 AM")
+        let date3 = getDate(strDate: "21/05/2022, 4:30 AM")
+        let date4 = getDate(strDate: "21/05/2022, 5:45 AM")
+        let date5 = getDate(strDate: "21/06/2022, 6:30 PM")
         let date6 = getDate(strDate: "9/06/2022, 4:30 PM")
 
         let date11 = getDate(strDate: "11/06/2022, 12:02 AM")
@@ -25,7 +25,7 @@ class DemoData {
         let date33 = getDate(strDate: "25/07/2022, 1:30 AM")
         let date44 = getDate(strDate: "20/07/2022, 1:45 AM")
         let date55 = getDate(strDate: "22/08/2022, 2:30 PM")
-        let date66 = getDate(strDate: "20/05/2022, 1:45 AM")
+        let date66 = getDate(strDate: "20/09/2022, 1:45 AM")
 
 
         let teamA = Team(name: "IND", logo: #imageLiteral(resourceName: "Bruno-Fernandes"), score: 6, captain: nil, players: nil)

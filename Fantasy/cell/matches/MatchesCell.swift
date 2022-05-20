@@ -36,7 +36,7 @@ class MatchesCell: UITableViewCell {
     func setData(match: Matche) {
         leftImageView.image = match.teamA.logo
         rightImageView.image = match.teamB.logo
-        tournamentNameLbl.text = "Champaran Cricket League"
+        tournamentNameLbl.text = match.tornamentName
         teamANameLbl.text = match.teamA.name
         teamBNameLbl.text = match.teamB.name
         if match.isLive {

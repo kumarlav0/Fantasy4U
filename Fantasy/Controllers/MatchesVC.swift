@@ -16,15 +16,7 @@ class MatchesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let nib = UINib(nibName: "MatchesCell", bundle: nil)
-        matchesListTableView.register(nib, forCellReuseIdentifier: "MatchesCell")
-        matchesListTableView.tableFooterView = UIView()
-        matchesListTableView.separatorStyle = .none
-        matches = DemoData.shared.getTournament().matches
-        matchesListTableView.reloadData()
-
-        
+       setUpUI()
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -54,6 +46,15 @@ class MatchesVC: UIViewController {
         }
     }
 
+    func setUpUI() {
+        let nib = UINib(nibName: "MatchesCell", bundle: nil)
+        matchesListTableView.register(nib, forCellReuseIdentifier: "MatchesCell")
+        matchesListTableView.tableFooterView = UIView()
+        matchesListTableView.separatorStyle = .none
+        matches = DemoData.shared.getTournament().matches
+        matchesListTableView.reloadData()
+        navigationController?.navigationBar.prefersLargeTitles = true
+    }
 }
 
 extension MatchesVC: UITableViewDataSource, UITableViewDelegate {
