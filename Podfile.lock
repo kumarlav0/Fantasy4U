@@ -1,16 +1,20 @@
 PODS:
+  - FSPagerView (0.8.3)
   - SkyFloatingLabelTextField (3.8.0)
 
 DEPENDENCIES:
+  - FSPagerView
   - SkyFloatingLabelTextField (~> 3.0)
 
 SPEC REPOS:
   trunk:
+    - FSPagerView
     - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
 
-PODFILE CHECKSUM: 9b7483df866ef66967dfd78a1442a3c84a506244
+PODFILE CHECKSUM: e56f5f5c41249c19fc55adb9b05c168e51485416
 
 COCOAPODS: 1.11.2

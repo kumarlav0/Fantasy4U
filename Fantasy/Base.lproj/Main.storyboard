@@ -32,7 +32,7 @@
                             <constraint firstItem="N1g-52-DxC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9mM-G1-tZ2"/>
                             <constraint firstAttribute="bottom" secondItem="N1g-52-DxC" secondAttribute="bottom" id="ewL-7v-QV7"/>
                             <constraint firstItem="N1g-52-DxC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="r0i-O3-qcx"/>
-                            <constraint firstItem="N1g-52-DxC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xwN-dr-z3V"/>
+                            <constraint firstItem="N1g-52-DxC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rKT-yr-rnz"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Matches" id="OAa-XT-JLW"/>

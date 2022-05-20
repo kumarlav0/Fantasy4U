@@ -3,102 +3,147 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29C03EAF5C27DC851118AEC88ABEC151 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375548AFDE0003A16FA7258179DC8625 /* FSPagerView.swift */; };
+		2C11263C977822D00B63D670B814B695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2E4A914423BA1B263C96C3BBC43E2245 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		300918873D3C4D2C8904BFE8271428EB /* Pods-FantasyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3567B69B99B42B92FB4D3B141A544851 /* Pods-FantasyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5ABF5005394286424D09C497637250A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		69C454BB3248AF5B39142B95250D1C6A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E41D0323800AF496C90DA7AFF7E14 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		77C0B2EC35F52A017E5B46E3F9548E64 /* Pods-Fantasy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B65269E37D2BA072B845C3334B17280 /* Pods-Fantasy-dummy.m */; };
-		831FB9667900E9B1013C4618FC5A5193 /* Pods-Fantasy-FantasyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7384445F05DEAD5F9E72923434DB3228 /* Pods-Fantasy-FantasyUITests-dummy.m */; };
-		878035B27CC6F4ADFB8E5393164F0002 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 457CADA1BD85F608FD0C6BFA4F0AACDF /* SkyFloatingLabelTextField-dummy.m */; };
-		88F8440B7A9D4AE229E6D4A78E511327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A7875C6639B596918A7147E0A5C744A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B57C1E746E9822C54F81510490BDDAB4 /* Pods-Fantasy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 241DEC14E0510009AF5BFB5A720DCE85 /* Pods-Fantasy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3CF600F549769651EFE95DFE93A3C2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D8F1C8974AE40DAC468B890701E5570C /* Pods-Fantasy-FantasyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F1B9252FE43CB61436CF2CCF45267A /* Pods-Fantasy-FantasyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40987E046BAD603A58CA00B9A7648588 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A966A71658C92D126E5A6F778312 /* FSPageViewLayout.swift */; };
+		488A767CF7494D169BFB886EDC470F5D /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802CD70546506EDFF1EAF3A0FAC7510 /* FSPageViewTransformer.swift */; };
+		5ABF5005394286424D09C497637250A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6905ECD008EF6B9A0871612D149AB3FE /* Pods-Fantasy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 241DEC14E0510009AF5BFB5A720DCE85 /* Pods-Fantasy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C454BB3248AF5B39142B95250D1C6A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B034A3A6FC01BB55651CC964FAD0E98 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		69C7244F5E0D41CF59E5ADC8952F8D0D /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F70B00E0C7CB8FF7E2B07139743EA3A /* FSPagerViewCell.swift */; };
+		7399F0854271981516AA79727A0A06C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		878035B27CC6F4ADFB8E5393164F0002 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AC521569D14794E2ED579D46EBB233 /* SkyFloatingLabelTextField-dummy.m */; };
+		88F8440B7A9D4AE229E6D4A78E511327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		91611428D06F5E61CECF70A53E6DA6C6 /* FSPagerViewObjcCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC607EF1230F438FBFB2AEB5E8F41D8 /* FSPagerViewObjcCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C85C11573FFE927A84AD0C8BE456AD81 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3202F07EED4DED23FEBB632E2F5B3F /* FSPagerViewLayoutAttributes.swift */; };
+		CE2C6FD104092EA3F2F0A357C72460A8 /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60230D1D3C721B6E9BA0722DE50CF18A /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D20EFE91C8591D9053C81F45CE192E47 /* Pods-Fantasy-FantasyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7384445F05DEAD5F9E72923434DB3228 /* Pods-Fantasy-FantasyUITests-dummy.m */; };
+		DC2F8A299C04933B9719A8A0A95FE487 /* Pods-Fantasy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B65269E37D2BA072B845C3334B17280 /* Pods-Fantasy-dummy.m */; };
 		E139F9964DF0ECFB02EC0F4995C16841 /* Pods-FantasyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3182D9EB1DCA91492519F6D3847C7 /* Pods-FantasyTests-dummy.m */; };
-		E2ABE924B2D77383C50E0BAD47F1A2CE /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7A91700ABBA0BFF7FCEB5077CB987 /* UITextField+fixCaretPosition.swift */; };
-		EC5246CB6C26D6680D741F077F20F0DE /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7006994319654F1B2BE2A36497AEC9 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF188EC048AF7BB0EC67B7E36A84F36A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B5135DE816FF15062A92FFCDA3951 /* SkyFloatingLabelTextField.swift */; };
+		E2ABE924B2D77383C50E0BAD47F1A2CE /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39502FF87CC0D87FA3A31DF8443B6CC /* UITextField+fixCaretPosition.swift */; };
+		E72392021E6F9C9C9AD1D504EBBAFF3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		EA89DFEFE15FAD82868C74E94F6F1B75 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D6874AFB3A559AB2F73BADAAE4FF3C /* FSPagerViewObjcCompat.m */; };
+		EC5246CB6C26D6680D741F077F20F0DE /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA684368C6E08860A28C327BCF8222E /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA11CD4E20DFCA3327CB006B10A3DB8 /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7D7A8401685E3BC01C9361347D1E2 /* FSPagerCollectionView.swift */; };
+		EF188EC048AF7BB0EC67B7E36A84F36A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6B2CAFE0D90FEA1A3A7E85E7170DD /* SkyFloatingLabelTextField.swift */; };
+		F12F38B23D71C1D34D0DD16E88634D9F /* Pods-Fantasy-FantasyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F1B9252FE43CB61436CF2CCF45267A /* Pods-Fantasy-FantasyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2562CFCEC42E2989BADC7E823F2C9C3 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47EE14106DC1FAA0EDDDBD0E6BF56C4 /* FSPageControl.swift */; };
+		F6702D89104E55C112FE16943BE7D41A /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF98B05A27D5310108651ADA57012AA /* FSPagerView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		64963C3371F4258674324F7B9D22B7A3 /* PBXContainerItemProxy */ = {
+		3E68F3B39AF7DC8D50981791C61B0B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4F8239FB329387A8476B964D92D92E7;
+			remoteInfo = FSPagerView;
+		};
+		4E996138D1A7EDE8B7681A3A6A5522B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4F8239FB329387A8476B964D92D92E7;
+			remoteInfo = FSPagerView;
+		};
+		6D59231E8BC396C48BFF64B6A74AEDE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
 			remoteInfo = SkyFloatingLabelTextField;
 		};
-		81CB336A58FEC9D1BFEBFD6B41F4AA53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
-			remoteInfo = SkyFloatingLabelTextField;
-		};
-		D2E8C81E73164A6BBA618EEFC94938D6 /* PBXContainerItemProxy */ = {
+		A72146417208869E720BA4C6EB2024C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D3488794A93DB21B990311275D903118;
 			remoteInfo = "Pods-Fantasy";
 		};
+		FAF25EB1F18B5BB0DBDC66C0019BBA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00F5C9EEEB88D1185C25B95D0869F2AA /* Pods-Fantasy-FantasyUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Fantasy-FantasyUITests"; path = Pods_Fantasy_FantasyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		045704EBFD952A368339B0664535B833 /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
 		054D6460162E0DCB50C15B104170EAD3 /* Pods-FantasyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FantasyTests-Info.plist"; sourceTree = "<group>"; };
-		0B7006994319654F1B2BE2A36497AEC9 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		0F47FB5E28EE8C8342B1776D813D1A4C /* FSPagerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSPagerView; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F70B00E0C7CB8FF7E2B07139743EA3A /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
 		0FAEFFE624C14AA6BCD35D74B9ED4DE9 /* Pods-Fantasy-FantasyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fantasy-FantasyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0FF98B05A27D5310108651ADA57012AA /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
+		1B034A3A6FC01BB55651CC964FAD0E98 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		20E99A9D9F273B29EC9E05054D26FC70 /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
 		241DEC14E0510009AF5BFB5A720DCE85 /* Pods-Fantasy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fantasy-umbrella.h"; sourceTree = "<group>"; };
+		2715081C5D2A8832E9664B5590B123F7 /* FSPagerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSPagerView-Info.plist"; sourceTree = "<group>"; };
 		27B7817115677BE30B682D957A747574 /* Pods-Fantasy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fantasy-Info.plist"; sourceTree = "<group>"; };
-		2C6A01652C3E31AC39CAB2238844F146 /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
-		2EA52B8E0FF443470DC2F947F1CF59C6 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		3567B69B99B42B92FB4D3B141A544851 /* Pods-FantasyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FantasyTests-umbrella.h"; sourceTree = "<group>"; };
 		36218616F773191EAEB845E70FFD14DE /* Pods-FantasyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FantasyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		375548AFDE0003A16FA7258179DC8625 /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
 		378955C486F0D8D70395012EF5FCD9F2 /* Pods-Fantasy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fantasy-acknowledgements.markdown"; sourceTree = "<group>"; };
 		394D634ADC8CC0EFC6B5751A1DAF65E6 /* Pods-Fantasy-FantasyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fantasy-FantasyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3C5E41D0323800AF496C90DA7AFF7E14 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
-		417B5135DE816FF15062A92FFCDA3951 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
-		4330792642CF7513EE912FDA623AF2F7 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
-		457CADA1BD85F608FD0C6BFA4F0AACDF /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		45A6B2CAFE0D90FEA1A3A7E85E7170DD /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
 		4CE3182D9EB1DCA91492519F6D3847C7 /* Pods-FantasyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FantasyTests-dummy.m"; sourceTree = "<group>"; };
+		4EA684368C6E08860A28C327BCF8222E /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		5703A966A71658C92D126E5A6F778312 /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
 		57AE59E3D20537731745C6AA0E6058D0 /* Pods-FantasyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FantasyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		590BD5B521A463F6BA3195720DD98622 /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
 		5CA0D72F822EE4E3E24AD26982FF1788 /* Pods-FantasyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FantasyTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F3202F07EED4DED23FEBB632E2F5B3F /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		60230D1D3C721B6E9BA0722DE50CF18A /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
 		65F2CB13F48EBE6656EBEC26E8F30643 /* Pods-Fantasy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fantasy-acknowledgements.plist"; sourceTree = "<group>"; };
 		69B32A3CA4391310FF882E8367560700 /* Pods-Fantasy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fantasy-frameworks.sh"; sourceTree = "<group>"; };
 		6B65269E37D2BA072B845C3334B17280 /* Pods-Fantasy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fantasy-dummy.m"; sourceTree = "<group>"; };
-		72BF52B4898258517DEF5A0A88574E56 /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EC607EF1230F438FBFB2AEB5E8F41D8 /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSPagerViewObjcCompat.h; path = Sources/FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
+		6FE7D7A8401685E3BC01C9361347D1E2 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
 		7384445F05DEAD5F9E72923434DB3228 /* Pods-Fantasy-FantasyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fantasy-FantasyUITests-dummy.m"; sourceTree = "<group>"; };
 		76E994413CDB491519063CCF96066925 /* Pods-Fantasy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fantasy.modulemap"; sourceTree = "<group>"; };
 		7B5D8846F9B90E7971CFC1A695121F26 /* Pods-Fantasy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fantasy.release.xcconfig"; sourceTree = "<group>"; };
 		85087AD6ECB74331E4AF69E1ABA21D27 /* Pods-Fantasy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fantasy.debug.xcconfig"; sourceTree = "<group>"; };
+		86892BE031E27BF348E105698DD6539D /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
 		86FD82A7CA5E02E74AC5575B812C6D77 /* Pods-FantasyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FantasyTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		88B7A91700ABBA0BFF7FCEB5077CB987 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
-		8C719D278B58B38574C26E7C42D3C286 /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
 		93F7C1436D84A0439E25B77A7A78B2DD /* Pods-Fantasy-FantasyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fantasy-FantasyUITests-frameworks.sh"; sourceTree = "<group>"; };
 		94E21FD7FFF39B4C732A7CEACE29F3AD /* Pods-Fantasy-FantasyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fantasy-FantasyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9802CD70546506EDFF1EAF3A0FAC7510 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
 		99B152469FE4685BCDC74F3AF3C7C544 /* Pods-FantasyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FantasyTests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A27504761C8DCF1029FA6A4C6E728184 /* Pods-Fantasy-FantasyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fantasy-FantasyUITests.modulemap"; sourceTree = "<group>"; };
+		A648CDBDC2206AAB4F5099B93A1E7D7E /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
 		A6514F863947677381F83F28C7920A06 /* Pods-Fantasy */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Fantasy"; path = Pods_Fantasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEF9473061A638CDC8E2D099B0323BE /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		B36F50C3FE169C67DE38612F579969EB /* Pods-FantasyTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FantasyTests"; path = Pods_FantasyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D6874AFB3A559AB2F73BADAAE4FF3C /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSPagerViewObjcCompat.m; path = Sources/FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
 		B610A0DA346C3392229A0A951A475364 /* Pods-Fantasy-FantasyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fantasy-FantasyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C47EE14106DC1FAA0EDDDBD0E6BF56C4 /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
+		C4C36AC8DD3884EC08D7DFF9C883F3DD /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSPagerView.modulemap; sourceTree = "<group>"; };
+		D1AC521569D14794E2ED579D46EBB233 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39502FF87CC0D87FA3A31DF8443B6CC /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 		E3F1B9252FE43CB61436CF2CCF45267A /* Pods-Fantasy-FantasyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fantasy-FantasyUITests-umbrella.h"; sourceTree = "<group>"; };
+		E6EC7E0F77C7D509D5B1F2EBFD480F99 /* FSPagerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.debug.xcconfig; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB094FDC0CCC62E0EE4096E9D4417DA6 /* FSPagerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.release.xcconfig; sourceTree = "<group>"; };
 		F512AFDC4FA1A44AF62DC963A4062150 /* Pods-Fantasy-FantasyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fantasy-FantasyUITests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		62B10E84D62F4DF7CE47600EB7695DA3 /* Frameworks */ = {
+		5FADF6B170C3F38A1F45003EAA2EE2EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3CF600F549769651EFE95DFE93A3C2F /* Foundation.framework in Frameworks */,
+				E72392021E6F9C9C9AD1D504EBBAFF3E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +155,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA5E508CF88E9997365BA1F8F920602A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C11263C977822D00B63D670B814B695 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DDEEE33742FB47163BAE4F8483F14BF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,17 +171,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECDBDCF52722991BD05C7751A818F2F0 /* Frameworks */ = {
+		E5ACBBCF353041B05D869DB1467D16B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7875C6639B596918A7147E0A5C744A6 /* Foundation.framework in Frameworks */,
+				7399F0854271981516AA79727A0A06C8 /* Foundation.framework in Frameworks */,
+				2E4A914423BA1B263C96C3BBC43E2245 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1EF8997DEBA088F75255C048AE706250 /* Pods-Fantasy */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,29 +208,44 @@
 			path = "Target Support Files/Pods-Fantasy";
 			sourceTree = "<group>";
 		};
-		4B5B28EADCDFA01D242EDB164DBA4D61 /* Pods */ = {
+		2E583AFD16FD91CD205F8605DF8A33A3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F7051AB8797CF325C5FF4DA40C6334D5 /* SkyFloatingLabelTextField */,
+				ABEF9473061A638CDC8E2D099B0323BE /* SkyFloatingLabelTextField.modulemap */,
+				D1AC521569D14794E2ED579D46EBB233 /* SkyFloatingLabelTextField-dummy.m */,
+				20E99A9D9F273B29EC9E05054D26FC70 /* SkyFloatingLabelTextField-Info.plist */,
+				86892BE031E27BF348E105698DD6539D /* SkyFloatingLabelTextField-prefix.pch */,
+				4EA684368C6E08860A28C327BCF8222E /* SkyFloatingLabelTextField-umbrella.h */,
+				A648CDBDC2206AAB4F5099B93A1E7D7E /* SkyFloatingLabelTextField.debug.xcconfig */,
+				045704EBFD952A368339B0664535B833 /* SkyFloatingLabelTextField.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
 			sourceTree = "<group>";
 		};
-		5023F73EC9FCD707EF3F2F32C991063A /* Products */ = {
+		39DDAFB1BC1209759659C31D9AE05F5F /* FSPagerView */ = {
 			isa = PBXGroup;
 			children = (
-				A6514F863947677381F83F28C7920A06 /* Pods-Fantasy */,
-				00F5C9EEEB88D1185C25B95D0869F2AA /* Pods-Fantasy-FantasyUITests */,
-				B36F50C3FE169C67DE38612F579969EB /* Pods-FantasyTests */,
-				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField */,
+				C47EE14106DC1FAA0EDDDBD0E6BF56C4 /* FSPageControl.swift */,
+				6FE7D7A8401685E3BC01C9361347D1E2 /* FSPagerCollectionView.swift */,
+				375548AFDE0003A16FA7258179DC8625 /* FSPagerView.swift */,
+				0F70B00E0C7CB8FF7E2B07139743EA3A /* FSPagerViewCell.swift */,
+				5F3202F07EED4DED23FEBB632E2F5B3F /* FSPagerViewLayoutAttributes.swift */,
+				6EC607EF1230F438FBFB2AEB5E8F41D8 /* FSPagerViewObjcCompat.h */,
+				B4D6874AFB3A559AB2F73BADAAE4FF3C /* FSPagerViewObjcCompat.m */,
+				5703A966A71658C92D126E5A6F778312 /* FSPageViewLayout.swift */,
+				9802CD70546506EDFF1EAF3A0FAC7510 /* FSPageViewTransformer.swift */,
+				E89661D4922EDAC41EE8D65839B95637 /* Support Files */,
 			);
-			name = Products;
+			name = FSPagerView;
+			path = FSPagerView;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -220,56 +297,70 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4B5B28EADCDFA01D242EDB164DBA4D61 /* Pods */,
-				5023F73EC9FCD707EF3F2F32C991063A /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				EB737BE919B205E033572F3DA64C363E /* Pods */,
+				D167695F28F9435141D7C5CE24D4FB01 /* Products */,
 				C4FC818F070F57530A9A5F1F745F4E47 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D167695F28F9435141D7C5CE24D4FB01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				0F47FB5E28EE8C8342B1776D813D1A4C /* FSPagerView */,
+				A6514F863947677381F83F28C7920A06 /* Pods-Fantasy */,
+				00F5C9EEEB88D1185C25B95D0869F2AA /* Pods-Fantasy-FantasyUITests */,
+				B36F50C3FE169C67DE38612F579969EB /* Pods-FantasyTests */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		D8B982ECC789764ECE911BDEDA82EB48 /* Support Files */ = {
+		D4CF8D7DA6B2807393C6BFE030D9050A /* SkyFloatingLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
-				2EA52B8E0FF443470DC2F947F1CF59C6 /* SkyFloatingLabelTextField.modulemap */,
-				457CADA1BD85F608FD0C6BFA4F0AACDF /* SkyFloatingLabelTextField-dummy.m */,
-				2C6A01652C3E31AC39CAB2238844F146 /* SkyFloatingLabelTextField-Info.plist */,
-				4330792642CF7513EE912FDA623AF2F7 /* SkyFloatingLabelTextField-prefix.pch */,
-				0B7006994319654F1B2BE2A36497AEC9 /* SkyFloatingLabelTextField-umbrella.h */,
-				8C719D278B58B38574C26E7C42D3C286 /* SkyFloatingLabelTextField.debug.xcconfig */,
-				72BF52B4898258517DEF5A0A88574E56 /* SkyFloatingLabelTextField.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SkyFloatingLabelTextField";
-			sourceTree = "<group>";
-		};
-		F7051AB8797CF325C5FF4DA40C6334D5 /* SkyFloatingLabelTextField */ = {
-			isa = PBXGroup;
-			children = (
-				417B5135DE816FF15062A92FFCDA3951 /* SkyFloatingLabelTextField.swift */,
-				3C5E41D0323800AF496C90DA7AFF7E14 /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				88B7A91700ABBA0BFF7FCEB5077CB987 /* UITextField+fixCaretPosition.swift */,
-				D8B982ECC789764ECE911BDEDA82EB48 /* Support Files */,
+				45A6B2CAFE0D90FEA1A3A7E85E7170DD /* SkyFloatingLabelTextField.swift */,
+				1B034A3A6FC01BB55651CC964FAD0E98 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				D39502FF87CC0D87FA3A31DF8443B6CC /* UITextField+fixCaretPosition.swift */,
+				2E583AFD16FD91CD205F8605DF8A33A3 /* Support Files */,
 			);
 			name = SkyFloatingLabelTextField;
 			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
+		E89661D4922EDAC41EE8D65839B95637 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4C36AC8DD3884EC08D7DFF9C883F3DD /* FSPagerView.modulemap */,
+				0FF98B05A27D5310108651ADA57012AA /* FSPagerView-dummy.m */,
+				2715081C5D2A8832E9664B5590B123F7 /* FSPagerView-Info.plist */,
+				590BD5B521A463F6BA3195720DD98622 /* FSPagerView-prefix.pch */,
+				60230D1D3C721B6E9BA0722DE50CF18A /* FSPagerView-umbrella.h */,
+				E6EC7E0F77C7D509D5B1F2EBFD480F99 /* FSPagerView.debug.xcconfig */,
+				EB094FDC0CCC62E0EE4096E9D4417DA6 /* FSPagerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSPagerView";
+			sourceTree = "<group>";
+		};
+		EB737BE919B205E033572F3DA64C363E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39DDAFB1BC1209759659C31D9AE05F5F /* FSPagerView */,
+				D4CF8D7DA6B2807393C6BFE030D9050A /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1177F0FA7CDE208F19F3FF40B210982F /* Headers */ = {
+		0608DA1408F82CC4ADBFAF480D0FA2B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8F1C8974AE40DAC468B890701E5570C /* Pods-Fantasy-FantasyUITests-umbrella.h in Headers */,
+				CE2C6FD104092EA3F2F0A357C72460A8 /* FSPagerView-umbrella.h in Headers */,
+				91611428D06F5E61CECF70A53E6DA6C6 /* FSPagerViewObjcCompat.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +372,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7907CAB2D7678157A2549D6F69BA6A10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6905ECD008EF6B9A0871612D149AB3FE /* Pods-Fantasy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0C96C5EDEA1256E3D515B772D897D55 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,11 +388,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCFE61DBB79AAFC4F222407A003F67E1 /* Headers */ = {
+		E06EB535262ED58247CF2CB9106C10B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57C1E746E9822C54F81510490BDDAB4 /* Pods-Fantasy-umbrella.h in Headers */,
+				F12F38B23D71C1D34D0DD16E88634D9F /* Pods-Fantasy-FantasyUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,17 +401,18 @@
 /* Begin PBXNativeTarget section */
 		49CE6C6863EC5F9956E0EA9424B28684 /* Pods-Fantasy-FantasyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B35EF8064877119BBB224FE0685FC0DC /* Build configuration list for PBXNativeTarget "Pods-Fantasy-FantasyUITests" */;
+			buildConfigurationList = 011842F8212CC2E6E35B9401DCB85780 /* Build configuration list for PBXNativeTarget "Pods-Fantasy-FantasyUITests" */;
 			buildPhases = (
-				1177F0FA7CDE208F19F3FF40B210982F /* Headers */,
-				A660EDCACF02920B76EEC3940617F526 /* Sources */,
-				62B10E84D62F4DF7CE47600EB7695DA3 /* Frameworks */,
-				C99E0F36B8A46CA477A1852C2E1DEF36 /* Resources */,
+				E06EB535262ED58247CF2CB9106C10B6 /* Headers */,
+				656BA5054003DF00302492286BD89273 /* Sources */,
+				5FADF6B170C3F38A1F45003EAA2EE2EF /* Frameworks */,
+				C20C411AC5391F97C1346A757644BA83 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E564B0E5A2F0E58032C80307A9702FF3 /* PBXTargetDependency */,
+				020F42A74D99897B6C1F21883ED59E32 /* PBXTargetDependency */,
+				EA5860589DA4BB1C2342D6577787BDEA /* PBXTargetDependency */,
 			);
 			name = "Pods-Fantasy-FantasyUITests";
 			productName = Pods_Fantasy_FantasyUITests;
@@ -321,21 +421,40 @@
 		};
 		D3488794A93DB21B990311275D903118 /* Pods-Fantasy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E56FF8DCB149134E2649A984EF976D1 /* Build configuration list for PBXNativeTarget "Pods-Fantasy" */;
+			buildConfigurationList = B9C931DE682BEEAB0F0C3513A212EECD /* Build configuration list for PBXNativeTarget "Pods-Fantasy" */;
 			buildPhases = (
-				CCFE61DBB79AAFC4F222407A003F67E1 /* Headers */,
-				D09BC4D43BEB9E3EE4A04B445DD27C81 /* Sources */,
-				ECDBDCF52722991BD05C7751A818F2F0 /* Frameworks */,
-				38938E61E20FEE0E79008B0D42CBEB55 /* Resources */,
+				7907CAB2D7678157A2549D6F69BA6A10 /* Headers */,
+				8F99A5A69294D05512F54DC2496088A0 /* Sources */,
+				AA5E508CF88E9997365BA1F8F920602A /* Frameworks */,
+				188713C1A70B0F17F4FDCCBE78973D94 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F9CB2ECC082BA92C4BC7862D3DC3ADB6 /* PBXTargetDependency */,
+				85FA881B7D5CF6DA9541553778CB570C /* PBXTargetDependency */,
+				5A8D2F2EAAC5A4B831321C6C8C5C7534 /* PBXTargetDependency */,
 			);
 			name = "Pods-Fantasy";
 			productName = Pods_Fantasy;
 			productReference = A6514F863947677381F83F28C7920A06 /* Pods-Fantasy */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98343682D690F1F5CF2596A899F35F57 /* Build configuration list for PBXNativeTarget "FSPagerView" */;
+			buildPhases = (
+				0608DA1408F82CC4ADBFAF480D0FA2B4 /* Headers */,
+				5F08C52D6C5CBA958747935FFDA1DFC2 /* Sources */,
+				E5ACBBCF353041B05D869DB1467D16B1 /* Frameworks */,
+				C51D8DC25EB55BC76B82A9E61C8BE832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSPagerView;
+			productName = FSPagerView;
+			productReference = 0F47FB5E28EE8C8342B1776D813D1A4C /* FSPagerView */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD94202CFBF0544E9FD16E8E9D23B6BE /* Pods-FantasyTests */ = {
@@ -350,7 +469,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BE666F7A2657D5815918E160A8F12827 /* PBXTargetDependency */,
+				9F780E479CE2C2D99BF6B392CB80CA04 /* PBXTargetDependency */,
 			);
 			name = "Pods-FantasyTests";
 			productName = Pods_FantasyTests;
@@ -385,7 +504,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -393,10 +512,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5023F73EC9FCD707EF3F2F32C991063A /* Products */;
+			productRefGroup = D167695F28F9435141D7C5CE24D4FB01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */,
 				D3488794A93DB21B990311275D903118 /* Pods-Fantasy */,
 				49CE6C6863EC5F9956E0EA9424B28684 /* Pods-Fantasy-FantasyUITests */,
 				DD94202CFBF0544E9FD16E8E9D23B6BE /* Pods-FantasyTests */,
@@ -406,7 +526,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		38938E61E20FEE0E79008B0D42CBEB55 /* Resources */ = {
+		188713C1A70B0F17F4FDCCBE78973D94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -420,14 +540,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5617603935A1E428C4F49D5764D7096 /* Resources */ = {
+		C20C411AC5391F97C1346A757644BA83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C99E0F36B8A46CA477A1852C2E1DEF36 /* Resources */ = {
+		C51D8DC25EB55BC76B82A9E61C8BE832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5617603935A1E428C4F49D5764D7096 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,47 +583,218 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A660EDCACF02920B76EEC3940617F526 /* Sources */ = {
+		5F08C52D6C5CBA958747935FFDA1DFC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831FB9667900E9B1013C4618FC5A5193 /* Pods-Fantasy-FantasyUITests-dummy.m in Sources */,
+				F2562CFCEC42E2989BADC7E823F2C9C3 /* FSPageControl.swift in Sources */,
+				ECA11CD4E20DFCA3327CB006B10A3DB8 /* FSPagerCollectionView.swift in Sources */,
+				29C03EAF5C27DC851118AEC88ABEC151 /* FSPagerView.swift in Sources */,
+				F6702D89104E55C112FE16943BE7D41A /* FSPagerView-dummy.m in Sources */,
+				69C7244F5E0D41CF59E5ADC8952F8D0D /* FSPagerViewCell.swift in Sources */,
+				C85C11573FFE927A84AD0C8BE456AD81 /* FSPagerViewLayoutAttributes.swift in Sources */,
+				EA89DFEFE15FAD82868C74E94F6F1B75 /* FSPagerViewObjcCompat.m in Sources */,
+				40987E046BAD603A58CA00B9A7648588 /* FSPageViewLayout.swift in Sources */,
+				488A767CF7494D169BFB886EDC470F5D /* FSPageViewTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D09BC4D43BEB9E3EE4A04B445DD27C81 /* Sources */ = {
+		656BA5054003DF00302492286BD89273 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C0B2EC35F52A017E5B46E3F9548E64 /* Pods-Fantasy-dummy.m in Sources */,
+				D20EFE91C8591D9053C81F45CE192E47 /* Pods-Fantasy-FantasyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F99A5A69294D05512F54DC2496088A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2F8A299C04933B9719A8A0A95FE487 /* Pods-Fantasy-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BE666F7A2657D5815918E160A8F12827 /* PBXTargetDependency */ = {
+		020F42A74D99897B6C1F21883ED59E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSPagerView;
+			target = D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */;
+			targetProxy = 3E68F3B39AF7DC8D50981791C61B0B6E /* PBXContainerItemProxy */;
+		};
+		5A8D2F2EAAC5A4B831321C6C8C5C7534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = 6D59231E8BC396C48BFF64B6A74AEDE3 /* PBXContainerItemProxy */;
+		};
+		85FA881B7D5CF6DA9541553778CB570C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSPagerView;
+			target = D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */;
+			targetProxy = 4E996138D1A7EDE8B7681A3A6A5522B5 /* PBXContainerItemProxy */;
+		};
+		9F780E479CE2C2D99BF6B392CB80CA04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Fantasy";
 			target = D3488794A93DB21B990311275D903118 /* Pods-Fantasy */;
-			targetProxy = D2E8C81E73164A6BBA618EEFC94938D6 /* PBXContainerItemProxy */;
+			targetProxy = A72146417208869E720BA4C6EB2024C4 /* PBXContainerItemProxy */;
 		};
-		E564B0E5A2F0E58032C80307A9702FF3 /* PBXTargetDependency */ = {
+		EA5860589DA4BB1C2342D6577787BDEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkyFloatingLabelTextField;
 			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
-			targetProxy = 64963C3371F4258674324F7B9D22B7A3 /* PBXContainerItemProxy */;
-		};
-		F9CB2ECC082BA92C4BC7862D3DC3ADB6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SkyFloatingLabelTextField;
-			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
-			targetProxy = 81CB336A58FEC9D1BFEBFD6B41F4AA53 /* PBXContainerItemProxy */;
+			targetProxy = FAF25EB1F18B5BB0DBDC66C0019BBA5B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B20DA2B099D5D6E536EF3DB7C693696 /* Release */ = {
+		1955507FB67EBCE6FBA48F217CA108F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E21FD7FFF39B4C732A7CEACE29F3AD /* Pods-Fantasy-FantasyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fantasy-FantasyUITests/Pods-Fantasy-FantasyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fantasy-FantasyUITests/Pods-Fantasy-FantasyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EB017AC0493177439D93B2FC8907B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85087AD6ECB74331E4AF69E1ABA21D27 /* Pods-Fantasy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fantasy/Pods-Fantasy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fantasy/Pods-Fantasy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31731D2A96C7FF5AA4EE56EC2EB0AE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB094FDC0CCC62E0EE4096E9D4417DA6 /* FSPagerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSPagerView/FSPagerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSPagerView/FSPagerView.modulemap";
+				PRODUCT_MODULE_NAME = FSPagerView;
+				PRODUCT_NAME = FSPagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		434E4A52CBC9F74FA2D8CDD170442C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6EC7E0F77C7D509D5B1F2EBFD480F99 /* FSPagerView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSPagerView/FSPagerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSPagerView/FSPagerView.modulemap";
+				PRODUCT_MODULE_NAME = FSPagerView;
+				PRODUCT_NAME = FSPagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C74A9DF465828E8BB0D56443017EF5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B5D8846F9B90E7971CFC1A695121F26 /* Pods-Fantasy.release.xcconfig */;
 			buildSettings = {
@@ -534,43 +832,6 @@
 			};
 			name = Release;
 		};
-		561E9E79E159CEEB838CA31B479E13C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85087AD6ECB74331E4AF69E1ABA21D27 /* Pods-Fantasy.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Fantasy/Pods-Fantasy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Fantasy/Pods-Fantasy.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5C316751AB1BF9B210A4DB12F6F58AD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CA0D72F822EE4E3E24AD26982FF1788 /* Pods-FantasyTests.release.xcconfig */;
@@ -595,44 +856,6 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FantasyTests/Pods-FantasyTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		658E955298DC1CA7832350961421B79F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FAEFFE624C14AA6BCD35D74B9ED4DE9 /* Pods-Fantasy-FantasyUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Fantasy-FantasyUITests/Pods-Fantasy-FantasyUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Fantasy-FantasyUITests/Pods-Fantasy-FantasyUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -686,7 +909,7 @@
 		};
 		9422C147501C92A6E686ED8C15F69AFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C719D278B58B38574C26E7C42D3C286 /* SkyFloatingLabelTextField.debug.xcconfig */;
+			baseConfigurationReference = A648CDBDC2206AAB4F5099B93A1E7D7E /* SkyFloatingLabelTextField.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -712,43 +935,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9461F3EDB64BEC0495D380BCB31DAACF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94E21FD7FFF39B4C732A7CEACE29F3AD /* Pods-Fantasy-FantasyUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Fantasy-FantasyUITests/Pods-Fantasy-FantasyUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Fantasy-FantasyUITests/Pods-Fantasy-FantasyUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -821,6 +1007,44 @@
 			};
 			name = Debug;
 		};
+		BF6FA72D66D9FC4D557DFB03B65CB1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAEFFE624C14AA6BCD35D74B9ED4DE9 /* Pods-Fantasy-FantasyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fantasy-FantasyUITests/Pods-Fantasy-FantasyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fantasy-FantasyUITests/Pods-Fantasy-FantasyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -885,7 +1109,7 @@
 		};
 		E29A9A22B7AA0AADA5C18466690773E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72BF52B4898258517DEF5A0A88574E56 /* SkyFloatingLabelTextField.release.xcconfig */;
+			baseConfigurationReference = 045704EBFD952A368339B0664535B833 /* SkyFloatingLabelTextField.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -921,20 +1145,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		011842F8212CC2E6E35B9401DCB85780 /* Build configuration list for PBXNativeTarget "Pods-Fantasy-FantasyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1955507FB67EBCE6FBA48F217CA108F4 /* Debug */,
+				BF6FA72D66D9FC4D557DFB03B65CB1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
 				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8E56FF8DCB149134E2649A984EF976D1 /* Build configuration list for PBXNativeTarget "Pods-Fantasy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				561E9E79E159CEEB838CA31B479E13C6 /* Debug */,
-				2B20DA2B099D5D6E536EF3DB7C693696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -948,6 +1172,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		98343682D690F1F5CF2596A899F35F57 /* Build configuration list for PBXNativeTarget "FSPagerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434E4A52CBC9F74FA2D8CDD170442C4A /* Debug */,
+				31731D2A96C7FF5AA4EE56EC2EB0AE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A33CF291238FED53E179F23B383C4853 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -957,11 +1190,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B35EF8064877119BBB224FE0685FC0DC /* Build configuration list for PBXNativeTarget "Pods-Fantasy-FantasyUITests" */ = {
+		B9C931DE682BEEAB0F0C3513A212EECD /* Build configuration list for PBXNativeTarget "Pods-Fantasy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9461F3EDB64BEC0495D380BCB31DAACF /* Debug */,
-				658E955298DC1CA7832350961421B79F /* Release */,
+				1EB017AC0493177439D93B2FC8907B69 /* Debug */,
+				4C74A9DF465828E8BB0D56443017EF5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

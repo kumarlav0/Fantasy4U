@@ -14,6 +14,11 @@
 		0412AAD5283033E6006FDF6B /* GeneralExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412AAD4283033E6006FDF6B /* GeneralExtension.swift */; };
 		0476104728317B4D00F26ECF /* success.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0476104628317B4D00F26ECF /* success.gif */; };
 		047C4D1F2836D28800699CB6 /* FYString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C4D1E2836D28800699CB6 /* FYString.swift */; };
+		04850A7A283828F000B91234 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04850A79283828F000B91234 /* TimeFormatter.swift */; };
+		04850A7E28382DA800B91234 /* HomeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04850A7C28382DA800B91234 /* HomeSliderView.swift */; };
+		04850A7F28382DA800B91234 /* HomeSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04850A7D28382DA800B91234 /* HomeSliderView.xib */; };
+		04850A822838309F00B91234 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04850A802838309F00B91234 /* SliderCell.swift */; };
+		04850A832838309F00B91234 /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04850A812838309F00B91234 /* SliderCell.xib */; };
 		04925F622831077E002143CC /* SuccessPopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04925F612831077E002143CC /* SuccessPopUp.xib */; };
 		04925F64283107A1002143CC /* SuccessPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04925F63283107A1002143CC /* SuccessPopUp.swift */; };
 		04A3315D281084C1009270E1 /* MatchesMockDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3315C281084C1009270E1 /* MatchesMockDataModel.swift */; };
@@ -68,6 +73,11 @@
 		043EEA7C27C6E59E72C0EA3B /* Pods_Fantasy_FantasyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fantasy_FantasyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0476104628317B4D00F26ECF /* success.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = success.gif; sourceTree = "<group>"; };
 		047C4D1E2836D28800699CB6 /* FYString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYString.swift; sourceTree = "<group>"; };
+		04850A79283828F000B91234 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		04850A7C28382DA800B91234 /* HomeSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSliderView.swift; sourceTree = "<group>"; };
+		04850A7D28382DA800B91234 /* HomeSliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSliderView.xib; sourceTree = "<group>"; };
+		04850A802838309F00B91234 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		04850A812838309F00B91234 /* SliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
 		04925F612831077E002143CC /* SuccessPopUp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessPopUp.xib; sourceTree = "<group>"; };
 		04925F63283107A1002143CC /* SuccessPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPopUp.swift; sourceTree = "<group>"; };
 		04A3315C281084C1009270E1 /* MatchesMockDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesMockDataModel.swift; sourceTree = "<group>"; };
@@ -141,6 +151,7 @@
 				0407B9E6274C2155005CA74E /* TableViewExtension.swift */,
 				0412AAD4283033E6006FDF6B /* GeneralExtension.swift */,
 				047C4D1E2836D28800699CB6 /* FYString.swift */,
+				04850A79283828F000B91234 /* TimeFormatter.swift */,
 			);
 			path = "Supporting File";
 			sourceTree = "<group>";
@@ -159,6 +170,17 @@
 				0476104628317B4D00F26ECF /* success.gif */,
 			);
 			path = "Extra assets";
+			sourceTree = "<group>";
+		};
+		04850A7B28382D8700B91234 /* HomeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				04850A7C28382DA800B91234 /* HomeSliderView.swift */,
+				04850A7D28382DA800B91234 /* HomeSliderView.xib */,
+				04850A802838309F00B91234 /* SliderCell.swift */,
+				04850A812838309F00B91234 /* SliderCell.xib */,
+			);
+			path = HomeSlider;
 			sourceTree = "<group>";
 		};
 		04925F6028310750002143CC /* Popups */ = {
@@ -258,6 +280,7 @@
 		04AB56B92743702A00EEDF97 /* cell */ = {
 			isa = PBXGroup;
 			children = (
+				04850A7B28382D8700B91234 /* HomeSlider */,
 				04AB56C127441ACD00EEDF97 /* matches */,
 				04AB56C027441AC300EEDF97 /* Match Score cell */,
 			);
@@ -430,7 +453,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04850A832838309F00B91234 /* SliderCell.xib in Resources */,
 				04AB5692274368E600EEDF97 /* LaunchScreen.storyboard in Resources */,
+				04850A7F28382DA800B91234 /* HomeSliderView.xib in Resources */,
 				04AB56C527441B0800EEDF97 /* MatchScoreCell.xib in Resources */,
 				04AB56BD2743704C00EEDF97 /* MatchesCell.xib in Resources */,
 				04AB568F274368E600EEDF97 /* Assets.xcassets in Resources */,
@@ -566,15 +591,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04850A822838309F00B91234 /* SliderCell.swift in Sources */,
 				04A7D5CE282847E20065F8F2 /* LoginViewController.swift in Sources */,
 				0407B9E7274C2155005CA74E /* TableViewExtension.swift in Sources */,
 				0412AAD32830289B006FDF6B /* SuccessMessageVC.swift in Sources */,
 				04925F64283107A1002143CC /* SuccessPopUp.swift in Sources */,
 				04AB56CA27441FF700EEDF97 /* ScoreHeaderView.swift in Sources */,
+				04850A7A283828F000B91234 /* TimeFormatter.swift in Sources */,
 				04A3315F28108DCA009270E1 /* GenerateMockData.swift in Sources */,
 				04AB56B82743700300EEDF97 /* MatchesVC.swift in Sources */,
 				04AB56BF2743948B00EEDF97 /* MatchDetailsVC.swift in Sources */,
 				04AB5683274368E500EEDF97 /* AppDelegate.swift in Sources */,
+				04850A7E28382DA800B91234 /* HomeSliderView.swift in Sources */,
 				04AB56BC2743704C00EEDF97 /* MatchesCell.swift in Sources */,
 				0412AAD128302886006FDF6B /* ForgotPasswordVC.swift in Sources */,
 				04AB56C427441B0800EEDF97 /* MatchScoreCell.swift in Sources */,

@@ -6,6 +6,7 @@ target 'Fantasy' do
   use_frameworks!
 
   pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'FSPagerView'
 
   target 'FantasyTests' do
     inherit! :search_paths
