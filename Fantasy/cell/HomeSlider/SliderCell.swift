@@ -31,10 +31,10 @@ class SliderCell: UITableViewCell {
         sliderView.register(UINib.init(nibName: "HomeSliderView", bundle: nil), forCellWithReuseIdentifier: "HomeSliderView")
         sliderView.automaticSlidingInterval = 2.5
         sliderView.decelerationDistance = 2
-        let width = contentView.frame.width - 80
-        sliderView.itemSize = CGSize(width: contentView.frame.width - 80, height: width / 2 + 10)
+        sliderView.itemSize = CGSize(width: contentView.frame.width - 80, height: 140)
         sliderView.interitemSpacing = 10
         sliderView.transformer = FSPagerViewTransformer(type: .linear)
+        sliderView.round(radius: 10)
     }
 
 }
@@ -53,18 +53,9 @@ extension SliderCell : FSPagerViewDataSource, FSPagerViewDelegate {
     func pagerView(_ pagerView: FSPagerView, didSelectItemAt index: Int) {
         let cell = sliderView.cellForItem(at: index) as! HomeSliderView
 
-        DispatchQueue.main.async { [weak self] in
-            guard let self = self else { return }
-            UIView.transition(with: cell, duration: 0.8, options: .transitionFlipFromLeft, animations: nil, completion: nil)
-            cell.cardImg.image =  UIImage(named: "5205447")
+        DispatchQueue.main.async {
+
+            UIView.transition(with: cell, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: nil)
         }
     }
-
-//    private func randomIndex(range: Int, index: Int) -> Int {
-//        var randomNum: Int
-////        while let randomNum = self.randomIndex(range: range, index: index), randomNum != index {
-////            randomNum = Int.random(in: 0...range)
-////        }
-//    }
-
 }

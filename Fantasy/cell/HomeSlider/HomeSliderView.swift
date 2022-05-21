@@ -9,12 +9,11 @@ import UIKit
 import FSPagerView
 
 class HomeSliderView: FSPagerViewCell {
-
     @IBOutlet weak var cardImg: UIImageView!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        cardImg.round(radius: 10)
     }
 
 }

@@ -81,7 +81,7 @@ extension MatchesVC: UITableViewDataSource, UITableViewDelegate {
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return indexPath.section == 0 ? 200 : 121
+        return indexPath.section == 0 ? 140 : 121
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

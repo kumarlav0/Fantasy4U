@@ -17,13 +17,15 @@
                 <rect key="frame" x="0.0" y="0.0" width="406" height="200"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ucO-X2-MEo">
+                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="ucO-X2-MEo">
                         <rect key="frame" x="5" y="0.0" width="396" height="200"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EMA-Wh-cRs">
                                 <rect key="frame" x="0.0" y="0.0" width="396" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="EMA-Wh-cRs" firstAttribute="leading" secondItem="ucO-X2-MEo" secondAttribute="leading" id="7qz-g7-G2U"/>
                             <constraint firstItem="EMA-Wh-cRs" firstAttribute="top" secondItem="ucO-X2-MEo" secondAttribute="top" id="Gca-Us-zSO"/>
@@ -34,6 +36,7 @@
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="ucO-X2-MEo" secondAttribute="bottom" id="X4r-hW-4Nj"/>
                 <constraint firstItem="ucO-X2-MEo" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="c9D-AV-zcf"/>
