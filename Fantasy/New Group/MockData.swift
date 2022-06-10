@@ -13,7 +13,7 @@ class DemoData {
 
     func getTournament() -> Tournament {
 
-        let date1 = getDate(strDate: "21/05/2022, 1:02 AM")
+        let date1 = getDate(strDate: "10/06/2022, 1:02 AM")
         let date2 = getDate(strDate: "21/05/2022, 3:55 AM")
         let date3 = getDate(strDate: "21/05/2022, 4:30 AM")
         let date4 = getDate(strDate: "21/05/2022, 5:45 AM")
